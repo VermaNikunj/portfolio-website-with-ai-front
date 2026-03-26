@@ -1,0 +1,50 @@
+<div class="contact-row">
+	<div class="contact-left">
+		<div class="email">
+			<i class="fa-solid fa-envelope white-icons"></i>
+			<span>
+				<a href="mailto:nikunjverma37@gmail.com" aria-label="personal email id">nikunjverma37@gmail.com</a>
+			</span>
+		</div>
+		<div class="mobile">
+			<i class="fa-solid fa-mobile white-icons"></i>
+			<span>
+				<a href="tel:+919868214580" aria-label="personal mobile number">+91-9868214580</a>
+			</span>
+		</div>
+		<div class="social-icons">
+			<a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="facebook social link">
+				<i class="fa-brands fa-facebook white-icons"></i>
+			</a>
+			<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="instagram social link">
+				<i class="fa-brands fa-instagram white-icons"></i>
+			</a>
+			<a
+				href="https://www.linkedin.com/in/nikunj-verma-4a8252a6/"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="linkedin social link"
+			>
+				<i class="fa-brands fa-linkedin white-icons"></i>
+			</a>
+			<a href="https://github.com/VermaNikunj" target="_blank" rel="noopener noreferrer" aria-label="github link">
+				<i class="fa-brands fa-github white-icons"></i>
+			</a>
+		</div>
+		<button class="btn downloadBtn" type="button" onclick="downloadCVEvent()">
+			<span data-i18n="main.downloadCV"></span>
+			<i class="fa-solid fa-download"></i>
+		</button>
+	</div>
+	<div class="contact-right">
+		<form id="contactForm" action="https://formspree.io/f/xldqvlde" method="POST">
+			<input type="text" name="name" placeholder="Your name" required />
+			<input type="email" name="email" placeholder="Your email" required />
+			<textarea name="message" rows="4" placeholder="Your message"></textarea>
+			<div>
+				<button class="btn submitBtn" data-i18n="main.submit" id="contactFormSubmitButton"></button>
+				<span class="contact-form-status" id="contactFormStatus"></span>
+			</div>
+		</form>
+	</div>
+</div>
