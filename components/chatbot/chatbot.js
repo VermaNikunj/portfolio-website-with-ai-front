@@ -1,5 +1,5 @@
-// Local Host - temporary URL
-const BACKEND_URL = 'http://localhost:8080/api/chat'
+// Backend URL
+const BACKEND_URL = 'https://portfolio-website-with-ai-back.onrender.com/api/chat'
 
 export function chatbotComponentFunction() {
 	const container = document.getElementById('chatbot-component')
