@@ -263,3 +263,12 @@ function openLeftNavigation() {
 	const nav = document.getElementById('collapseNavList')
 	nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex'
 }
+
+function toggleChatbot() {
+	const window_ = document.getElementById('chatbot-window')
+	const btn = document.getElementById('chatbotBtn')
+	if (!window_) return
+	const isOpen = window_.classList.toggle('chatbot-open')
+	btn.classList.toggle('chatbot-active', isOpen)
+}
+
