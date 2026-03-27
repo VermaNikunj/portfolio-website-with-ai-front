@@ -74,10 +74,8 @@ function themeToggleEvent() {
 }
 
 function initialFunction() {
-	// loadContentComponents()
 	getSavedSettings()
 	openSettingMenu(true)
-	// Lazy loading components function call
 	// lazyLoadComponents()
 }
 
@@ -265,10 +263,10 @@ function openLeftNavigation() {
 }
 
 function toggleChatbot() {
-	const window_ = document.getElementById('chatbot-window')
-	const btn = document.getElementById('chatbotBtn')
-	if (!window_) return
-	const isOpen = window_.classList.toggle('chatbot-open')
-	btn.classList.toggle('chatbot-active', isOpen)
+	const chatbot = document.getElementById('chatbot-window')
+	const chatbotBtn = document.getElementById('chatbotBtn')
+	if (!chatbot) return
+	const isChatBotOpen = chatbot.classList.toggle('chatbot-open')
+	chatbotBtn.classList.toggle('chatbot-active', isChatBotOpen)
 }
 

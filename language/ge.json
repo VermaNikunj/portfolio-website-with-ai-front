@@ -192,6 +192,13 @@
         "printMediaAppDate": "Okt 2019",
         "printMediaAppTech": "Unity, Vuforia Engine, Vuforia Database, Android SDK, VuMark, VS Code and Adobe Illustrator"
     },
+    "chatbot": {
+        "headerTitle": "Frag mich alles",
+        "welcomeMessage": "Hallo! Ich bin Nikkunjs KI-Assistent. Frag mich über seine Erfahrungen, Fähigkeiten oder Projekte.",
+        "typing": "Schreibt...",
+        "rateLimitError": "Die Gemini-KI ist derzeit ratenbegrenzt. Bitte versuche es später erneut.",
+        "defaultError": "Entschuldigung, etwas ist schiefgelaufen. Bitte versuche es erneut."
+    },
     "experience": {
         "roleAndResponsibilites": "Rolle und Verantwortlichkeiten",
         "additionalResponsibilities": "Zusätzliche Verantwortlichkeiten",

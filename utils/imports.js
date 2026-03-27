@@ -31,7 +31,7 @@ async function importComponent(textData) {
 			.catch((err) => showNotification(`Error while loading Education component: ${err}`, 'error')),
 		
 		import('../components/chatbot/chatbot.js')
-			.then((module) => module.chatbotComponentFunction())
+			.then((module) => module.chatbotComponentFunction(textData?.chatbot))
 			.catch((err) => showNotification(`Error while loading Chatbot component: ${err}`, 'error'))
 	])
 }

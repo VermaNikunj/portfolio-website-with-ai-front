@@ -192,6 +192,13 @@
         "printMediaAppDate": "Oct 2019",
         "printMediaAppTech": "Unity, Vuforia Engine, Vuforia Database, Android SDK, VuMark, VS Code and Adobe Illustrator"
     },
+    "chatbot": {
+        "headerTitle": "Pregúntame cualquier cosa",
+        "welcomeMessage": "¡Hola! Soy el asistente de IA de Nikunj. Pregúntame sobre su experiencia, habilidades o proyectos.",
+        "typing": "Escribiendo...",
+        "rateLimitError": "La IA de Gemini tiene un límite de velocidad actualmente. Por favor, inténtalo de nuevo más tarde.",
+        "defaultError": "Lo siento, algo salió mal. Por favor, inténtalo de nuevo."
+    },
     "experience": {
         "roleAndResponsibilites": "Rol y Responsabilidades",
         "additionalResponsibilities": "Responsabilidades Adicionales",
